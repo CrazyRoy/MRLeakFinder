@@ -13,6 +13,9 @@
 		B0FC3EB622215F0F0030F801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FC3EB522215F0F0030F801 /* Assets.xcassets */; };
 		B0FC3EB922215F0F0030F801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FC3EB722215F0F0030F801 /* LaunchScreen.storyboard */; };
 		B0FC3EBC22215F0F0030F801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC3EBB22215F0F0030F801 /* main.m */; };
+		B0FC3ECB222160DE0030F801 /* NSObject+MRLeaks.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC3ECA222160DE0030F801 /* NSObject+MRLeaks.m */; };
+		B0FC3ECE222160E90030F801 /* UIViewController+MRLeaks.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC3ECD222160E90030F801 /* UIViewController+MRLeaks.m */; };
+		B0FC3ED1222160F90030F801 /* UINavigationController+MRLeaks.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC3ED0222160F90030F801 /* UINavigationController+MRLeaks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		B0FC3EB822215F0F0030F801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0FC3EBA22215F0F0030F801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0FC3EBB22215F0F0030F801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0FC3EC9222160DE0030F801 /* NSObject+MRLeaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MRLeaks.h"; sourceTree = "<group>"; };
+		B0FC3ECA222160DE0030F801 /* NSObject+MRLeaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MRLeaks.m"; sourceTree = "<group>"; };
+		B0FC3ECC222160E90030F801 /* UIViewController+MRLeaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MRLeaks.h"; sourceTree = "<group>"; };
+		B0FC3ECD222160E90030F801 /* UIViewController+MRLeaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MRLeaks.m"; sourceTree = "<group>"; };
+		B0FC3ECF222160F90030F801 /* UINavigationController+MRLeaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MRLeaks.h"; sourceTree = "<group>"; };
+		B0FC3ED0222160F90030F801 /* UINavigationController+MRLeaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MRLeaks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 		B0FC3EAB22215F0D0030F801 /* MRLeakFinderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B0FC3EC22221606B0030F801 /* MRLeakFinder */,
 				B0FC3EAC22215F0D0030F801 /* AppDelegate.h */,
 				B0FC3EAD22215F0D0030F801 /* AppDelegate.m */,
 				B0FC3EAF22215F0D0030F801 /* ViewController.h */,
@@ -69,6 +79,19 @@
 				B0FC3EBB22215F0F0030F801 /* main.m */,
 			);
 			path = MRLeakFinderDemo;
+			sourceTree = "<group>";
+		};
+		B0FC3EC22221606B0030F801 /* MRLeakFinder */ = {
+			isa = PBXGroup;
+			children = (
+				B0FC3EC9222160DE0030F801 /* NSObject+MRLeaks.h */,
+				B0FC3ECA222160DE0030F801 /* NSObject+MRLeaks.m */,
+				B0FC3ECC222160E90030F801 /* UIViewController+MRLeaks.h */,
+				B0FC3ECD222160E90030F801 /* UIViewController+MRLeaks.m */,
+				B0FC3ECF222160F90030F801 /* UINavigationController+MRLeaks.h */,
+				B0FC3ED0222160F90030F801 /* UINavigationController+MRLeaks.m */,
+			);
+			path = MRLeakFinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FC3ED1222160F90030F801 /* UINavigationController+MRLeaks.m in Sources */,
 				B0FC3EB122215F0D0030F801 /* ViewController.m in Sources */,
+				B0FC3ECE222160E90030F801 /* UIViewController+MRLeaks.m in Sources */,
 				B0FC3EBC22215F0F0030F801 /* main.m in Sources */,
 				B0FC3EAE22215F0D0030F801 /* AppDelegate.m in Sources */,
+				B0FC3ECB222160DE0030F801 /* NSObject+MRLeaks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
