@@ -16,6 +16,7 @@
 		B0FC3ECB222160DE0030F801 /* NSObject+MRLeaks.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC3ECA222160DE0030F801 /* NSObject+MRLeaks.m */; };
 		B0FC3ECE222160E90030F801 /* UIViewController+MRLeaks.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC3ECD222160E90030F801 /* UIViewController+MRLeaks.m */; };
 		B0FC3ED1222160F90030F801 /* UINavigationController+MRLeaks.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC3ED0222160F90030F801 /* UINavigationController+MRLeaks.m */; };
+		B0FC3ED422225FEF0030F801 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC3ED322225FEF0030F801 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		B0FC3ECD222160E90030F801 /* UIViewController+MRLeaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MRLeaks.m"; sourceTree = "<group>"; };
 		B0FC3ECF222160F90030F801 /* UINavigationController+MRLeaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MRLeaks.h"; sourceTree = "<group>"; };
 		B0FC3ED0222160F90030F801 /* UINavigationController+MRLeaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MRLeaks.m"; sourceTree = "<group>"; };
+		B0FC3ED222225FEF0030F801 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B0FC3ED322225FEF0030F801 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				B0FC3EAD22215F0D0030F801 /* AppDelegate.m */,
 				B0FC3EAF22215F0D0030F801 /* ViewController.h */,
 				B0FC3EB022215F0D0030F801 /* ViewController.m */,
+				B0FC3ED222225FEF0030F801 /* SecondViewController.h */,
+				B0FC3ED322225FEF0030F801 /* SecondViewController.m */,
 				B0FC3EB222215F0D0030F801 /* Main.storyboard */,
 				B0FC3EB522215F0F0030F801 /* Assets.xcassets */,
 				B0FC3EB722215F0F0030F801 /* LaunchScreen.storyboard */,
@@ -167,6 +172,7 @@
 				B0FC3ED1222160F90030F801 /* UINavigationController+MRLeaks.m in Sources */,
 				B0FC3EB122215F0D0030F801 /* ViewController.m in Sources */,
 				B0FC3ECE222160E90030F801 /* UIViewController+MRLeaks.m in Sources */,
+				B0FC3ED422225FEF0030F801 /* SecondViewController.m in Sources */,
 				B0FC3EBC22215F0F0030F801 /* main.m in Sources */,
 				B0FC3EAE22215F0D0030F801 /* AppDelegate.m in Sources */,
 				B0FC3ECB222160DE0030F801 /* NSObject+MRLeaks.m in Sources */,

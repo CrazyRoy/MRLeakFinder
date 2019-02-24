@@ -53,7 +53,7 @@
 // 当前对象没有释放的断言方法
 - (void)assertNotDealloc {
     
-    NSLog(@"MRLeakFinder info: Class %@ is Leaks.",NSStringFromClass([self class]));
+    NSLog(@"MRLeakFinder info: Class --> %@ is Leaks.",NSStringFromClass([self class]));
 }
 
 @end
